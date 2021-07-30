@@ -1,0 +1,15 @@
+Package: pasteAsComment
+Type: Package
+Title: A 'RStudio' Addin to Paste the Clipboard as a Comment Block 
+Version: 0.1.0
+Author: Stéphane Laurent
+Maintainer: Stéphane Laurent <laurent_step@outlook.fr>
+Description: Provides a 'RStudio' addin allowing to paste the content of the clipboard as a comment block.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+  rstudioapi,
+  clipr
+URL: https://github.com/stla/pasteAsComment
+BugReports: https://github.com/stla/pasteAsComment/issues
+RoxygenNote: 7.1.1

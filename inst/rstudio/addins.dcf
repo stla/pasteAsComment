@@ -1,0 +1,4 @@
+Name: Paste as comment
+Description: Paste a console selection as comment
+Binding: pasteAsComment
+Interactive: false
