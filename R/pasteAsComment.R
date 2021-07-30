@@ -13,10 +13,6 @@ pasteAsComment <- function(){
     stop("Your RStudio version is too old.", call. = FALSE)
   }
   lines <- getSelection()
-
-  cat("selection\n"); print(lines)
-
-  #lines <- strsplit(selection, "\n")[[1L]]
   lines <- paste0("# ", lines)
   textToInsert <- paste0(lines, collapse = "\n")
   insertText(textToInsert)
