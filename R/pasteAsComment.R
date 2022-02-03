@@ -18,6 +18,19 @@ pasteAsComment <- function(){
   insertText(textToInsert)
 }
 
+#' @importFrom rstudioapi hasFun insertText
+#' @noRd
+#' @keywords internal
+pasteAsRoxygen <- function(){
+  if(!hasFun("insertText")){
+    stop("Your RStudio version is too old.", call. = FALSE)
+  }
+  lines <- getSelection()
+  lines <- paste0("#' ", lines)
+  textToInsert <- paste0(lines, collapse = "\n")
+  insertText(textToInsert)
+}
+
 
 # textToComment = function(blockWidth = 80){
 #   myText = read_clip()

@@ -1,4 +1,9 @@
 Name: Paste as comment
-Description: Paste a console selection as comment
+Description: Paste the clipboard content as a comment
 Binding: pasteAsComment
+Interactive: false
+
+Name: Paste as roxygen
+Description: Paste the clipboard content as roxygen lines
+Binding: pasteAsRoxygen
 Interactive: false
