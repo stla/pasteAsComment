@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^inst/screenshots$
 ^LICENSE$
+^cran-comments\.md$

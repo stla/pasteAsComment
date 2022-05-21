@@ -1,10 +1,10 @@
 Package: pasteAsComment
 Type: Package
-Title: A 'RStudio' Addin to Paste the Clipboard as a Comment or a 'roxygen' Block 
+Title: 'RStudio' Addin to Paste the Clipboard as a Comment Block or a 'roxygen' Block 
 Version: 0.2.0
 Author: Stéphane Laurent
 Maintainer: Stéphane Laurent <laurent_step@outlook.fr>
-Description: Provides a 'RStudio' addin allowing to paste the content of the clipboard as a comment block or as 'roxygen' lines.
+Description: Provides a 'RStudio' addin allowing to paste the content of the clipboard as a comment block or as 'roxygen' lines. This is very useful to insert an example in the 'roxygen' block.
 License: GPL-3
 Encoding: UTF-8
 Imports:
@@ -12,4 +12,4 @@ Imports:
   clipr
 URL: https://github.com/stla/pasteAsComment
 BugReports: https://github.com/stla/pasteAsComment/issues
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
