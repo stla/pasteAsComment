@@ -1,3 +1,6 @@
+Note: there's no example because the package only provides a RStudio addin.
+
+
 ## Testing environments
 
 * Local R installation 4.1.2, Windows 10
